@@ -1,0 +1,97 @@
+body {
+  margin: auto;
+/*  position: absolute;*/
+}
+
+.first-content-container {
+  width: 100%;
+  height: 840px;
+  background-size: cover;
+  background-color: gray;
+  background-image: url('assets/background-3.png');
+  background-repeat: no-repeat;
+}
+
+.transparent {
+  width: 100%;
+  height: 840px;
+  background-color: rgba(255,255,255, 0.3);
+  background: linear-gradient(rgba(84,23,130, 0.2), #3F1470);
+  position:absolute;
+}
+
+.name {
+  position: absolute;
+  width:100%;
+  text-align: center;
+  padding-top: 140px;
+
+}
+
+.name-style {
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.brand {
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: -80px;
+}
+
+.second-content-container {
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+  background-color: white;
+  /*background-image: url('assets/background-3.png');*/
+  background-repeat: no-repeat;
+}
+
+.greeting {
+  font-size: 42px;
+  font-family: 'Oswald', 'sans-serif 300';
+  color: #171717;
+ /* letter-spacing: 1px;*/
+  margin-top: -5px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+hr {
+  height: 5px;
+  color:black;
+  border:none;
+  background-color: #171717;
+  width: 150px;
+  margin-top: -30px;
+}
+
+.sub-head {
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #171717;
+  /*letter-spacing: 5px;*/
+  margin-top: -30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 35px;
+}
+
+.img-circle {
+    position: absolute;
+    border-radius: 50%;
+    content: url('assets/olga.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+
